@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nodl & Fon Industries – Präzision seit 1973</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #0B1E3D;
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: rgba(11, 30, 61, 0.9);
+      padding: 20px 50px;
+      text-align: center;
+      border-bottom: 2px solid #D9A441;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+      color: #D9A441;
+      letter-spacing: 1px;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #D9A441;
+    }
+
+    section {
+      padding: 60px 10%;
+    }
+
+    h2 {
+      color: #D9A441;
+      font-size: 1.8em;
+      margin-bottom: 15px;
+    }
+
+    p {
+      max-width: 800px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .product {
+      background-color: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 8px;
+      padding: 20px;
+      transition: 0.3s;
+    }
+
+    .product:hover {
+      transform: translateY(-5px);
+      border-color: #D9A441;
+    }
+
+    .product h3 {
+      color: #D9A441;
+    }
+
+    .cta {
+      display: inline-block;
+      background-color: #D9A441;
+      color: #0B1E3D;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+
+    .cta:hover {
+      background-color: #b68835;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 0.9em;
+      color: rgba(255,255,255,0.7);
+      border-top: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .lang-switch {
+      text-align: right;
+      font-size: 0.9em;
+      margin-top: -10px;
+      margin-bottom: 20px;
+    }
+
+    .lang-switch a {
+      color: #D9A441;
+      text-decoration: none;
+      margin-left: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Nodl & Fon Industries</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">Über uns</a>
+      <a href="#products">Produkte</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="lang-switch">
+      <a href="#de">DE</a> | <a href="#en">EN</a>
+    </div>
+    <h2>Präzision, Innovation und Handwerkskunst – seit 1973</h2>
+    <p>
+      Nodl & Fon Industries steht für hochwertige Spezialanfertigungen im Bereich industrieller Nadeln, Fäden und technischer Nähsysteme. 
+      Unsere Lösungen entstehen dort, wo Standardprodukte an ihre Grenzen stoßen – individuell, präzise und auf Anfrage gefertigt.
+    </p>
+    <a href="#contact" class="cta">Jetzt anfragen</a>
+  </section>
+
+  <section id="about">
+    <h2>Über uns</h2>
+    <p>
+      Als familiengeführtes Unternehmen mit jahrzehntelanger Erfahrung verbinden wir traditionelles Ingenieurhandwerk mit modernster Materialtechnologie. 
+      Unsere Kernkompetenz liegt in der Entwicklung von Hochleistungsnadeln und Spezialfäden aus Carbon-, Glas- und Wolframlegierungen – gefertigt für höchste Präzision in industriellen Anwendungen.
+    </p>
+  </section>
+
+  <section id="products">
+    <h2>Produkte</h2>
+    <div class="products">
+      <div class="product">
+        <h3>🧷 Universale verstellbare Kurvennadel</h3>
+        <p>Weltneuheit mit zwei stufenlos verstellbaren Gelenken (bis 90°). Ideal für komplexe Strukturen, Rundungen und schwer zugängliche Nähbereiche.</p>
+        <a href="#contact" class="cta">Produkt anfragen</a>
+      </div>
+
+      <div class="product">
+        <h3>🪵 Holznähfaden</h3>
+        <p>Spezialfaden für Holz- und Verbundmaterialien. Nahtlose, stabile Verbindungen ohne Schrauben oder Leim – ideal für Luxusmöbel und Architektur.</p>
+        <a href="#contact" class="cta">Produkt anfragen</a>
+      </div>
+
+      <div class="product">
+        <h3>🔥 Glasfaserfaden</h3>
+        <p>Hitzebeständiger Hochleistungsfaden (bis 1800 °C) aus 8-fach geflochtenen Litzen. Für anspruchsvollste industrielle Anwendungen.</p>
+        <a href="#contact" class="cta">Produkt anfragen</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Kontakt</h2>
+    <p>
+      Fragen, Kooperationen oder Anfragen zu Sonderanfertigungen?<br>
+      Kontaktieren Sie uns direkt:
+    </p>
+    <p>
+      📧 info@nodl-fon.com<br>
+      📞 +49 (0)123 – 456 789
+    </p>
+  </section>
+
+  <footer>
+    <p>Nodl & Fon Industries – Engineering Precision Since 1973</p>
+    <p>Impressum · Datenschutz · © 2025</p>
+  </footer>
+
+</body>
+</html>
